@@ -69,6 +69,10 @@ This project explores the classic **Iris flower dataset** using **Pandas**, **Ma
 - Created box plots for `petal_length` across all three species.
 - Helped visualize spread, median, and outliers.
 
+### ✅ Task 8: Computing Correlations
+- Used `.corr()` from Pandas to find correlations
+- Displayed results using annotated heatmap with `Matplotlib`.
+
 ---
 
 ## 🛠️ Technologies Used
@@ -79,6 +83,7 @@ This project explores the classic **Iris flower dataset** using **Pandas**, **Ma
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
+- Scikit-learn
 
 ---
 
@@ -96,6 +101,7 @@ This project demonstrates how basic data exploration and visualisation can help 
 - [Seaborn Docs](https://seaborn.pydata.org/)
 - [NumPy polyfit](https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html)
 - [Scikit-learn Datasets](https://scikit-learn.org/stable/datasets/index.html)
+- 
 
 ---
 
