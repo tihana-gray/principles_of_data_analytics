@@ -11,11 +11,15 @@ by Tihana Gray
 
 ## Technologies
 
-- Python
-- Git
-- GitHub
+- Python 3.x
+- Git & GitHub
 - Codespaces
-- Jupyter
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
 ---
 ---
@@ -73,16 +77,23 @@ This project explores the classic **Iris flower dataset** using **Pandas**, **Ma
 - Used `.corr()` from Pandas to find correlations
 - Displayed results using annotated heatmap with `Matplotlib`.
 
+### ✅ Task 9: Simple Linear Regression
+- Used Scikit-learn’s `LinearRegression()` to fit a regression model.
+- Calculated the R² (coefficient of determination) using `r2_score`.
+- Recreated the scatter plot and added a regression line and R² annotation.
+
 ---
 
 ## 🛠️ Technologies Used
 
 - Python 3.x
+- Git & GitHub
+- Codespaces
+- Jupyter Notebook
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Jupyter Notebook
 - Scikit-learn
 
 ---
@@ -101,7 +112,8 @@ This project demonstrates how basic data exploration and visualisation can help 
 - [Seaborn Docs](https://seaborn.pydata.org/)
 - [NumPy polyfit](https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html)
 - [Scikit-learn Datasets](https://scikit-learn.org/stable/datasets/index.html)
-- 
+- [Jupyter Notebook Docs](https://jupyter-notebook.readthedocs.io/en/stable/)
+
 
 ---
 
