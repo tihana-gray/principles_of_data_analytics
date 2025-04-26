@@ -71,7 +71,7 @@ This project explores the classic **Iris flower dataset** using **Pandas**, **Ma
 
 ### ✅ Task 7: Class Distributions with Box Plot
 - Created box plots for `petal_length` across all three species.
-- Helped visualize spread, median, and outliers.
+- Visualised spread, median, and outliers.
 
 ### ✅ Task 8: Computing Correlations
 - Used `.corr()` from Pandas to find correlations
