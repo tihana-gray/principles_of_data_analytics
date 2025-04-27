@@ -82,6 +82,11 @@ This project explores the classic **Iris flower dataset** using **Pandas**, **Ma
 - Calculated the R² (coefficient of determination) using `r2_score`.
 - Recreated the scatter plot and added a regression line and R² annotation.
 
+### ✅ Task 10: Features
+- Created a `pairplot` of the Iris dataset using `Seaborn` to visualise relationships between all feature pairs.
+- The pairplot shows scatter plots for each feature combination and distributions for each feature along the diagonal.
+- Points are color-coded by species, helping to identify patterns, correlations, and how easily the species can be separated based on their measurements.
+
 ---
 
 ## 🛠️ Technologies Used
