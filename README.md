@@ -45,13 +45,14 @@ This project explores the classic **Iris flower dataset** using **Pandas**, **Ma
 ## 🧪 Tasks and Explanations
 
 ### ✅ Task 1: Load the Dataset
-- Imported the dataset from a GitHub CSV file.
-- Alternatively, `load_iris()` returns a Bunch object with data, targets, feature names, etc.
+- Imported the dataset using Scikit-learn's `load_iris()` function.
+- Converted the data and feature names into a Pandas DataFrame.
+- Added a new 'species' column by mapping the numeric target labels (0, 1, 2) to their real species names by using `pd.Series().map()`.
 - 📖 [load_iris() Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html)
 
 ### ✅ Task 2: Explore the Structure
-- Displayed `.shape`, `.head()`, `.tail()`, and feature/target names.
-- Confirmed dataset dimensions and class labels.
+- Explored the structure of the dataset by checking its shape (rows and columns), printing the first and last 5 rows, and listing the feature names and target classes (species).
+- Summarized the numerical data using `.describe()`, which calculated key statistics like mean, standard deviation, minimum, maximum, and quartiles for each flower measurement feature.
 
 ### ✅ Task 3: Summary Statistics
 - Calculated mean, median, min, max, and standard deviation for each feature.
