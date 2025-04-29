@@ -113,6 +113,7 @@ With each task I built a stronger understanding of how Python can be used for da
 ---
 
 ## 🔗 References - Technology
+**Full list of references under tasks in `tasks.ipynb`.**
 
 - [Iris Dataset - Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set)
 - [Pandas Documentation](https://pandas.pydata.org/)
@@ -121,9 +122,6 @@ With each task I built a stronger understanding of how Python can be used for da
 - [NumPy polyfit](https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html)
 - [Scikit-learn Datasets](https://scikit-learn.org/stable/datasets/index.html)
 - [Jupyter Notebook Docs](https://jupyter-notebook.readthedocs.io/en/stable/)
-
-
-Full list of references under tasks in `tasks.ipynb`. 
 
 ---
 
