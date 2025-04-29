@@ -9,17 +9,6 @@ by Tihana Gray
 3. Click the green Code button.
 4. Click Create New Codespace on main.
 
-## Technologies
-
-- Python 3.x
-- Git & GitHub
-- Codespaces
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
 
 ---
 ---
@@ -34,11 +23,10 @@ This project explores the classic **Iris flower dataset** using **Pandas**, **Ma
 
 ## 📚 Dataset
 
-- **Source**: [Iris Dataset on GitHub](https://gist.github.com/curran/a08a1080b88344b0c8a7)
-- **Alternative**: `sklearn.datasets.load_iris()` — built-in in scikit-learn
+- **Source**: [Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html)
 - **Features**:  
-  - `sepal_length`, `sepal_width`, `petal_length`, `petal_width`
-  - `species` (categorical target with 3 classes)
+  - `sepal length (cm)`, `sepal width (cm)`, `petal length (cm)`, `petal width (cm)`
+  - `species` (categorical target with 3 classes: Iris-Setosa, Iris-Versicolour, Iris-Virginica)
 
 ---
 
@@ -55,36 +43,44 @@ This project explores the classic **Iris flower dataset** using **Pandas**, **Ma
 - Summarized the numerical data using `.describe()`, which calculated key statistics like mean, standard deviation, minimum, maximum, and quartiles for each flower measurement feature.
 
 ### ✅ Task 3: Summary Statistics
-- Calculated mean, median, min, max, and standard deviation for each feature.
-- Used `.describe()` and `.median()` functions from Pandas.
+- Calculated mean, median, min, max, and standard deviation for each numeric feature.
+- Used `.describe().T` for stats and added median separately using `.median()`.
+- Selected only the required columns and sorted features alphabetically for better readability.
 
 ### ✅ Task 4: Feature Histograms
-- Plotted histograms using Matplotlib.
-- Added appropriate titles and axis labels.
+- Plotted histograms for each numeric feature using Matplotlib.
+- Selected numeric columns to avoid non-numeric data.
+- Used a 2x2 subplot layout and styled histograms with colours, labels, titles, and grid lines for clarity.
 
 ### ✅ Task 5: Scatter Plot (Feature Relationship)
-- Selected two features (`sepal_length` vs `petal_length`).
-- Used Seaborn to color-code by species for visual classification.
+- Selected two features (`sepal length (cm)` vs `petal length (cm)`) to investigate their relationship.
+- Created a colour-coded scatter plot using Seaborn with species as the hue for easy visual classification.
+- Customised point size, outline, and transparency for better visibility.
+- Calculated and displayed the correlation coefficient to show feature relationship strength.
 
 ### ✅ Task 6: Regression Line
-- Used `numpy.polyfit()` to add a regression line.
-- Overlaid line on scatter plot for linear relationship analysis.
+- Used `numpy.polyfit()` to calculate and plot a linear regression line between two features.
+- Created a scatter plot with Seaborn, color-coded by species, and overlaid the regression line.
+- Customised point size, transparency, and outline for better visualisation.
+- Added axis labels, plot title, and a legend for clarity.
 
 ### ✅ Task 7: Class Distributions with Box Plot
-- Created box plots for `petal_length` across all three species.
-- Visualised spread, median, and outliers.
+- Created box plots for `petal length (cm)` across all three species using Seaborn.
+- Visualized the spread, median, and outliers to compare petal lengths between classes.
 
 ### ✅ Task 8: Computing Correlations
-- Used `.corr()` from Pandas to find correlations
-- Displayed results using annotated heatmap with `Matplotlib`.
+- Calculated feature correlations using Pandas `.corr()` function.
+- Created a heatmap using Matplotlib to present positive and negative correlations.
+- Added feature labels, rotated ticks for clarity, and annotated each cell with the exact correlation value.
 
 ### ✅ Task 9: Simple Linear Regression
-- Used Scikit-learn’s `LinearRegression()` to fit a regression model.
+- Used Scikit-learn `LinearRegression()` to fit a regression model.
 - Calculated the R² (coefficient of determination) using `r2_score`.
-- Recreated the scatter plot and added a regression line and R² annotation.
+- Created a scatter plot with a regression line and printed the R² value in the console.
 
 ### ✅ Task 10: Features
 - Created a `pairplot` of the Iris dataset using `Seaborn` to visualise relationships between all feature pairs.
+- Used `hue` to color-code species and different markers to distinguish classes.
 - The pairplot shows scatter plots for each feature combination and distributions for each feature along the diagonal.
 - Points are color-coded by species, helping to identify patterns, correlations, and how easily the species can be separated based on their measurements.
 
@@ -104,13 +100,19 @@ This project explores the classic **Iris flower dataset** using **Pandas**, **Ma
 
 ---
 
-## 📊 Results
+## 💭 Learning Reflection
 
-This project demonstrates how basic data exploration and visualisation can help understand relationships and distributions in a well-structured dataset like Iris.
+Throughout this project, I explored the Iris dataset using Python for the first time with libraries like Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn. I learned how to load real datasets into a DataFrame and check their structure to understand what kind of data I was working with.
+
+At the start, I was mainly focused on basic tasks like printing the shape of the dataset, checking the first few rows, and listing the feature names. As I moved through the tasks, I began applying simple statistical methods to summarise the data, and gradually learned how to visualise it through histograms and scatter plots.
+
+It was exciting but also a bit challenging to work with more complex plots like regression lines and heatmaps. It took me a while to understand how things like `.corr()` and `LinearRegression()` actually work behind the scenes.
+
+With each task I built a stronger understanding of how Python can be used for data analysis and visualisation, and I saw how basic coding skills connect to real-world datasets. Also, I am now confident enough to test this with real data at work and try my own projects.
 
 ---
 
-## 🔗 References
+## 🔗 References - Technology
 
 - [Iris Dataset - Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set)
 - [Pandas Documentation](https://pandas.pydata.org/)
@@ -121,7 +123,9 @@ This project demonstrates how basic data exploration and visualisation can help 
 - [Jupyter Notebook Docs](https://jupyter-notebook.readthedocs.io/en/stable/)
 
 
+Full list of references under tasks in `tasks.ipynb`. 
+
 ---
 
-
+## End
 
